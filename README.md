@@ -1,5 +1,7 @@
 # Keyboard Map file to set the XRDP server into Spanish working with all keys!!!
 
+How to install on RASPBIAN JESSIE
+
 Download the **[km-040a.ini](km-040a.ini)** file to your desktop and then copy it to /etc/xrdp folder with this command:
 
 ```sh
