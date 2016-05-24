@@ -1,6 +1,10 @@
 # Keyboard Map file to set the XRDP server into Spanish working with all keys!!!
 
-Download the **[km-040a.ini](km-040a.ini)** file into the ```/etc/xrdp/``` folder and then, replace the owner and the group of the file through the next command:
+Download the **[km-040a.ini](km-040a.ini)** file to your desktop and then copy it to /etc/xrdp folder with this command:
+```sh
+pi@raspberrypi sudo cp /home/pi/Desktop/km-040a.ini /etc/xrdp/
+```
+, replace the owner and the group of the file through the next command:
 
 ```sh
 pi@raspberrypi /etc/xrdp $ sudo chown xrdp.xrdp km-040a.ini
