@@ -6,10 +6,11 @@ Download the **[km-040a.ini](km-040a.ini)** file to your desktop and then copy i
 pi@raspberrypi sudo cp /home/pi/Desktop/km-040a.ini /etc/xrdp/
 ```
 
-Then replace the owner and the group of the file through the next command:
+Then replace the owner and the group of the file through the next commands:
 
 ```sh
-pi@raspberrypi /etc/xrdp $ sudo chown xrdp.xrdp km-040a.ini
+pi@raspberrypi cd /etc/xrdp
+pi@raspberrypi sudo chown xrdp.xrdp km-040a.ini
 ```
 
 After that, you have to restart the XRDP service with this command:
